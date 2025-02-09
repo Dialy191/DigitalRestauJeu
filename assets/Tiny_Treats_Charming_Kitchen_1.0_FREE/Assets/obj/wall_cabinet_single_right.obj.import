@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2y8nwff04kpe"
+path="res://.godot/imported/wall_cabinet_single_right.obj-c2a274c6e4e4240ca768e81b10c61e5e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_cabinet_single_right.obj-c2a274c6e4e4240ca768e81b10c61e5e.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_cabinet_single_right.obj"
+dest_files=["res://.godot/imported/wall_cabinet_single_right.obj-c2a274c6e4e4240ca768e81b10c61e5e.mesh", "res://.godot/imported/wall_cabinet_single_right.obj-c2a274c6e4e4240ca768e81b10c61e5e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6847odcc4855"
+path="res://.godot/imported/papertowel_holder.obj-ea7ea3136812402fba62ca348adca4de.mesh"
+
+[deps]
+
+files=["res://.godot/imported/papertowel_holder.obj-ea7ea3136812402fba62ca348adca4de.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/papertowel_holder.obj"
+dest_files=["res://.godot/imported/papertowel_holder.obj-ea7ea3136812402fba62ca348adca4de.mesh", "res://.godot/imported/papertowel_holder.obj-ea7ea3136812402fba62ca348adca4de.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

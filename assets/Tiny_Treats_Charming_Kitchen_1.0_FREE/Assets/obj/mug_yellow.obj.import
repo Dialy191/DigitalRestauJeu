@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vjs0mvtedot7"
+path="res://.godot/imported/mug_yellow.obj-f9f44ae11984ef3cc2c186a001e2f02d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mug_yellow.obj-f9f44ae11984ef3cc2c186a001e2f02d.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/mug_yellow.obj"
+dest_files=["res://.godot/imported/mug_yellow.obj-f9f44ae11984ef3cc2c186a001e2f02d.mesh", "res://.godot/imported/mug_yellow.obj-f9f44ae11984ef3cc2c186a001e2f02d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

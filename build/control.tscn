@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://b8qvbmfyv84h6"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchor_right = 1.316
+anchor_bottom = 1.636
+offset_left = -80.0
+offset_top = 4.0
+offset_right = -80.0321
+offset_bottom = 3.87195
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -12.0
+offset_top = -126.0
+offset_right = -232.0
+offset_bottom = -706.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
+
+[node name="TextureRect" type="TextureRect" parent="GridContainer"]
+layout_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 220.0
+offset_top = 586.0
+offset_right = 860.0
+offset_bottom = 617.0
+text = "Fermer"
+flat = true

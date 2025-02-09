@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8kpp5cgn11d3"
+path="res://.godot/imported/countertop_sink.obj-1dac3e15e7456b967fd9d6de13a1608d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/countertop_sink.obj-1dac3e15e7456b967fd9d6de13a1608d.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/countertop_sink.obj"
+dest_files=["res://.godot/imported/countertop_sink.obj-1dac3e15e7456b967fd9d6de13a1608d.mesh", "res://.godot/imported/countertop_sink.obj-1dac3e15e7456b967fd9d6de13a1608d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

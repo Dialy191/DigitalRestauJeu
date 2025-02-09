@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b661potkqhany"
+path="res://.godot/imported/countertop_corner_inner.obj-4a52585fca942407212c819638456f2c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/countertop_corner_inner.obj-4a52585fca942407212c819638456f2c.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/countertop_corner_inner.obj"
+dest_files=["res://.godot/imported/countertop_corner_inner.obj-4a52585fca942407212c819638456f2c.mesh", "res://.godot/imported/countertop_corner_inner.obj-4a52585fca942407212c819638456f2c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

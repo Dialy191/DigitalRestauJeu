@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bb5w5ayrnb6gu"
+path="res://.godot/imported/spatula.obj-b309d579a7d38a078e9cc771a95a0afa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/spatula.obj-b309d579a7d38a078e9cc771a95a0afa.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/spatula.obj"
+dest_files=["res://.godot/imported/spatula.obj-b309d579a7d38a078e9cc771a95a0afa.mesh", "res://.godot/imported/spatula.obj-b309d579a7d38a078e9cc771a95a0afa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

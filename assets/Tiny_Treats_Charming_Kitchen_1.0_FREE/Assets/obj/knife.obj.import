@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxxvo6r2m4b04"
+path="res://.godot/imported/knife.obj-6630fe4381581130318770fbeb205e90.mesh"
+
+[deps]
+
+files=["res://.godot/imported/knife.obj-6630fe4381581130318770fbeb205e90.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/knife.obj"
+dest_files=["res://.godot/imported/knife.obj-6630fe4381581130318770fbeb205e90.mesh", "res://.godot/imported/knife.obj-6630fe4381581130318770fbeb205e90.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

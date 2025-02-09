@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rpdw8batkgba"
+path="res://.godot/imported/aid-crutch.obj-a5a6e2a12ce7fbc8d864c90dc6765ee5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/aid-crutch.obj-a5a6e2a12ce7fbc8d864c90dc6765ee5.mesh"]
+
+source_file="res://assets/character/Models/OBJ format/aid-crutch.obj"
+dest_files=["res://.godot/imported/aid-crutch.obj-a5a6e2a12ce7fbc8d864c90dc6765ee5.mesh", "res://.godot/imported/aid-crutch.obj-a5a6e2a12ce7fbc8d864c90dc6765ee5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

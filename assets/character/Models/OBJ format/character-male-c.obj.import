@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdhj57r3mas4j"
+path="res://.godot/imported/character-male-c.obj-6bd34e84897454adc41fda2e77f2988f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character-male-c.obj-6bd34e84897454adc41fda2e77f2988f.mesh"]
+
+source_file="res://assets/character/Models/OBJ format/character-male-c.obj"
+dest_files=["res://.godot/imported/character-male-c.obj-6bd34e84897454adc41fda2e77f2988f.mesh", "res://.godot/imported/character-male-c.obj-6bd34e84897454adc41fda2e77f2988f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

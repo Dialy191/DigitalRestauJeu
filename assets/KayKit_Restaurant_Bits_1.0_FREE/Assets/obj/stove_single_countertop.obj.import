@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bfo3d6i2bi3tt"
+path="res://.godot/imported/stove_single_countertop.obj-d7299d1875777231277310fc19f88050.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stove_single_countertop.obj-d7299d1875777231277310fc19f88050.mesh"]
+
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stove_single_countertop.obj"
+dest_files=["res://.godot/imported/stove_single_countertop.obj-d7299d1875777231277310fc19f88050.mesh", "res://.godot/imported/stove_single_countertop.obj-d7299d1875777231277310fc19f88050.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

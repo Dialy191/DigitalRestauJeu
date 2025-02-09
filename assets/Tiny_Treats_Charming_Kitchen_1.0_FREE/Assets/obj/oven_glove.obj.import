@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1ojc0h4q0v4x"
+path="res://.godot/imported/oven_glove.obj-fce1d9e2ec0edda936607f59cf8c2119.mesh"
+
+[deps]
+
+files=["res://.godot/imported/oven_glove.obj-fce1d9e2ec0edda936607f59cf8c2119.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/oven_glove.obj"
+dest_files=["res://.godot/imported/oven_glove.obj-fce1d9e2ec0edda936607f59cf8c2119.mesh", "res://.godot/imported/oven_glove.obj-fce1d9e2ec0edda936607f59cf8c2119.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

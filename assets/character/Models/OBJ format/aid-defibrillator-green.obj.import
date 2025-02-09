@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b3ppvqr1vno1o"
+path="res://.godot/imported/aid-defibrillator-green.obj-904a23e55bb18e8ccaaf31c8c284c0fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/aid-defibrillator-green.obj-904a23e55bb18e8ccaaf31c8c284c0fc.mesh"]
+
+source_file="res://assets/character/Models/OBJ format/aid-defibrillator-green.obj"
+dest_files=["res://.godot/imported/aid-defibrillator-green.obj-904a23e55bb18e8ccaaf31c8c284c0fc.mesh", "res://.godot/imported/aid-defibrillator-green.obj-904a23e55bb18e8ccaaf31c8c284c0fc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

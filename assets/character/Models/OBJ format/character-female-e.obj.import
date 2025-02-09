@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cf41jbwxaiqpm"
+path="res://.godot/imported/character-female-e.obj-15866c136b8de9a1ed7f2980d824c94c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character-female-e.obj-15866c136b8de9a1ed7f2980d824c94c.mesh"]
+
+source_file="res://assets/character/Models/OBJ format/character-female-e.obj"
+dest_files=["res://.godot/imported/character-female-e.obj-15866c136b8de9a1ed7f2980d824c94c.mesh", "res://.godot/imported/character-female-e.obj-15866c136b8de9a1ed7f2980d824c94c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

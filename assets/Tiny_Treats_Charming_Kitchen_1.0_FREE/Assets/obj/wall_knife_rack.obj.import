@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw2un2yvy7lw3"
+path="res://.godot/imported/wall_knife_rack.obj-f9f3b16ec7b50465095ea5abbdda9117.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_knife_rack.obj-f9f3b16ec7b50465095ea5abbdda9117.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_knife_rack.obj"
+dest_files=["res://.godot/imported/wall_knife_rack.obj-f9f3b16ec7b50465095ea5abbdda9117.mesh", "res://.godot/imported/wall_knife_rack.obj-f9f3b16ec7b50465095ea5abbdda9117.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

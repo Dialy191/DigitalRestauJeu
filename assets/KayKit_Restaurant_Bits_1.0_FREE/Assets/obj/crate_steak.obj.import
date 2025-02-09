@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bj5t3lest84mr"
+path="res://.godot/imported/crate_steak.obj-fb32f6f03da92fab978604578e37ee4b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crate_steak.obj-fb32f6f03da92fab978604578e37ee4b.mesh"]
+
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_steak.obj"
+dest_files=["res://.godot/imported/crate_steak.obj-fb32f6f03da92fab978604578e37ee4b.mesh", "res://.godot/imported/crate_steak.obj-fb32f6f03da92fab978604578e37ee4b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

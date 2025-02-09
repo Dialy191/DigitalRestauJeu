@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccuocc1sy6sc2"
+path="res://.godot/imported/floor_tiles_kitchen.obj-962c4dc5d66cc074b1363192c3a546bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_tiles_kitchen.obj-962c4dc5d66cc074b1363192c3a546bd.mesh"]
+
+source_file="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/floor_tiles_kitchen.obj"
+dest_files=["res://.godot/imported/floor_tiles_kitchen.obj-962c4dc5d66cc074b1363192c3a546bd.mesh", "res://.godot/imported/floor_tiles_kitchen.obj-962c4dc5d66cc074b1363192c3a546bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

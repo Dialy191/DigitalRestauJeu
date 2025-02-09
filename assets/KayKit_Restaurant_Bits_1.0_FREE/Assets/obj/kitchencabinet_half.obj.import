@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ci42arslag67w"
+path="res://.godot/imported/kitchencabinet_half.obj-53e201f4ba931cb257ba549a600bc1fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/kitchencabinet_half.obj-53e201f4ba931cb257ba549a600bc1fd.mesh"]
+
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencabinet_half.obj"
+dest_files=["res://.godot/imported/kitchencabinet_half.obj-53e201f4ba931cb257ba549a600bc1fd.mesh", "res://.godot/imported/kitchencabinet_half.obj-53e201f4ba931cb257ba549a600bc1fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

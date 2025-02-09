@@ -1,0 +1,346 @@
+[gd_scene load_steps=40 format=3 uid="uid://caagjw0k1cvr5"]
+
+[ext_resource type="PackedScene" uid="uid://djfmwmkxrke5m" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/fridge_A.fbx" id="1_tly58"]
+[ext_resource type="PackedScene" uid="uid://btby5f286ic47" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchentable_A_large.fbx" id="2_eus1f"]
+[ext_resource type="PackedScene" uid="uid://bkx7y7otsltsy" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/wall_knife_rack.fbx" id="3_b75l5"]
+[ext_resource type="PackedScene" uid="uid://1j1ku77fg4uy" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/wall_shelf_kitchen_corner.fbx" id="4_1okjj"]
+[ext_resource type="Script" path="res://build/static_body_3d.gd" id="5_1nw6l"]
+[ext_resource type="PackedScene" uid="uid://c3bodiaibe2j6" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_outercorner.fbx" id="5_aukmk"]
+[ext_resource type="Texture2D" uid="uid://b3uyxs5oc7e2f" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/sample.png" id="5_l71u4"]
+[ext_resource type="Script" path="res://build/area_3d.gd" id="6_jsbp5"]
+[ext_resource type="PackedScene" uid="uid://cig6mlucxiuv8" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_B.fbx" id="6_oiy0q"]
+[ext_resource type="PackedScene" uid="uid://b8qvbmfyv84h6" path="res://build/control.tscn" id="7_fb54j"]
+[ext_resource type="PackedScene" uid="uid://k3285wudn3yc" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/blinds_kitchen.fbx" id="7_gagjt"]
+[ext_resource type="PackedScene" uid="uid://d08p7vm3sg2kf" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/cuttingboard.fbx" id="8_vek7i"]
+[ext_resource type="PackedScene" uid="uid://w2udda1tkmgi" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/dishrack_plates.fbx" id="9_umbtv"]
+[ext_resource type="PackedScene" uid="uid://db6neoe11qt6o" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/stove.fbx" id="10_ryp37"]
+[ext_resource type="PackedScene" uid="uid://b7gw0s435ve1p" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/ketchup.fbx" id="11_y7c2t"]
+[ext_resource type="PackedScene" uid="uid://ddslju6ris7jo" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/mustard.fbx" id="12_6p5kp"]
+[ext_resource type="PackedScene" uid="uid://c5u4l1noceq6d" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_D_large.fbx" id="13_gstlr"]
+[ext_resource type="PackedScene" uid="uid://b8migllq6wwp1" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/shelf_papertowel.fbx" id="14_whinl"]
+[ext_resource type="PackedScene" uid="uid://cug2g5ao0eqny" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/wall_shelf_kitchen_hooks.fbx" id="15_4cvc6"]
+[ext_resource type="PackedScene" uid="uid://csx3l47s35mx7" path="res://assets/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/fbx/utensils_cup.fbx" id="16_twyla"]
+[ext_resource type="PackedScene" uid="uid://vi43br2spvyr" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_sink.fbx" id="17_gr5d8"]
+[ext_resource type="Script" path="res://build/character_body_3d.gd" id="18_jwxv8"]
+[ext_resource type="PackedScene" uid="uid://cqsdo8vhptpxe" path="res://assets/character/Models/FBX format/character-female-b.fbx" id="19_78o5p"]
+[ext_resource type="PackedScene" uid="uid://0r4nn4x4j22v" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_bun_top.fbx" id="23_5o4xy"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3msmr"]
+height = 2.19326
+
+[sub_resource type="FontFile" id="FontFile_qbg2q"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_0xwsw"]
+font = SubResource("FontFile_qbg2q")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ikc7g"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_x0ulj"]
+size = Vector3(10, 0.1, 16)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g0bcp"]
+size = Vector3(10, 0.1, 16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_j78cx"]
+size = Vector3(1, 5, 15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lrwbn"]
+size = Vector3(1, 5, 15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ut7el"]
+size = Vector3(1, 5, 15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_aeyiw"]
+size = Vector3(1, 5, 15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vptkl"]
+size = Vector3(1, 5, 10)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s6lxd"]
+size = Vector3(1, 5, 10)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1buh7"]
+size = Vector3(7.668, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_td86t"]
+size = Vector3(7, 2, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_snib6"]
+size = Vector3(1, 3, 2)
+
+[node name="Principal" type="Node2D"]
+position = Vector2(486, 187)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.805813, 0.440077, -0.396229, -0.568355, -0.762612, 0.308861, -0.166246, 0.474084, 0.864643, 0.52002, 3.32687, 10.8368)
+layers = 15
+light_energy = 2.811
+light_bake_mode = 1
+sky_mode = 1
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." groups=["player"]]
+transform = Transform3D(1, 0, 0, 0, 0.996623, -0.0821125, 0, 0.0821125, 0.996623, 0.174434, -1.35452, 0.640855)
+script = ExtResource("18_jwxv8")
+speed = 1.0
+jump_speed = 1.0
+gravity = 1.0
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(0.996297, 0.0412039, 0.0754605, -0.0806349, 0.752355, 0.653804, -0.0298338, -0.657468, 0.752892, -0.617243, 8.07308, 11.3212)
+current = true
+fov = 123.75
+size = 0.1
+
+[node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D/Camera3D" groups=["player"]]
+transform = Transform3D(0.996297, -0.0806349, -0.0298338, 0.0412039, 0.752355, -0.657468, 0.0754605, 0.653804, 0.752891, 1.50187, 1.39069, -13.7629)
+target_position = Vector3(0, 0, -2)
+collision_mask = 2
+
+[node name="character-female-b" parent="CharacterBody3D" groups=["player"] instance=ExtResource("19_78o5p")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.0116923, 1.1787, 0.618152)
+
+[node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D/character-female-b"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" groups=["player"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0116923, 1.42938, 3.2719)
+shape = SubResource("CapsuleShape3D_3msmr")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody3D"]
+
+[node name="Label" type="Label" parent="CharacterBody3D/CanvasLayer"]
+visible = false
+offset_right = 624.0
+offset_bottom = 285.0
+text = "Appuiez surA
+"
+label_settings = SubResource("LabelSettings_0xwsw")
+
+[node name="PopupPanel" type="PopupPanel" parent="CharacterBody3D/CanvasLayer"]
+auto_translate_mode = 1
+size = Vector2i(1928, 1088)
+visible = true
+
+[node name="TextureRect" type="TextureRect" parent="CharacterBody3D/CanvasLayer/PopupPanel"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 1924.0
+offset_bottom = 1084.0
+texture = ExtResource("5_l71u4")
+
+[node name="Area3D" type="Area3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 7.45058e-09, 0, 7.45058e-09, 1, 2.32831e-10, 0, 4.65661e-10, 1, 0, 0, 0)
+script = ExtResource("6_jsbp5")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="CharacterBody3D/Area3D"]
+transform = Transform3D(1, 1.11759e-07, -1.11759e-08, 8.19564e-08, 1, -4.65661e-10, -1.49012e-08, 4.42378e-09, 1, -0.218615, 1.74763, 0.171165)
+shape = SubResource("BoxShape3D_ikc7g")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody3D/Area3D"]
+
+[node name="Label" type="Label" parent="CharacterBody3D/Area3D/CanvasLayer"]
+anchors_preset = -1
+anchor_left = -0.911
+anchor_top = -2.4
+anchor_right = -0.911
+anchor_bottom = -2.4
+offset_left = -1072.53
+offset_top = 453.2
+offset_right = -448.528
+offset_bottom = 738.2
+text = "jereo tsara fa mbola tsy misy
+"
+label_settings = SubResource("LabelSettings_0xwsw")
+
+[node name="sol" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.996623, -0.0821125, 0, 0.0821125, 0.996623, 0.174434, 0.00422579, 0.752803)
+mesh = SubResource("BoxMesh_x0ulj")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="sol"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="sol/StaticBody3D"]
+shape = SubResource("BoxShape3D_g0bcp")
+
+[node name="mur" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.996623, -0.0821125, 0, 0.0821125, 0.996623, 0.174434, 0.00422579, 0.752803)
+
+[node name="mur1" type="MeshInstance3D" parent="mur"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4829, 2.45874, 0.103956)
+mesh = SubResource("BoxMesh_j78cx")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="mur/mur1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mur/mur1/StaticBody3D"]
+shape = SubResource("BoxShape3D_lrwbn")
+
+[node name="mur2" type="MeshInstance3D" parent="mur"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55944, 2.47059, 0.0475495)
+mesh = SubResource("BoxMesh_ut7el")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="mur/mur2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mur/mur2/StaticBody3D"]
+shape = SubResource("BoxShape3D_aeyiw")
+
+[node name="mur3" type="MeshInstance3D" parent="mur"]
+transform = Transform3D(0.00947695, 0, 0.999955, 0, 1, 0, -0.999955, 0, 0.00947695, 0.0233078, 2.45801, -7.38199)
+mesh = SubResource("BoxMesh_vptkl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="mur/mur3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mur/mur3/StaticBody3D"]
+shape = SubResource("BoxShape3D_s6lxd")
+
+[node name="assets" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.996623, -0.0821125, 0, 0.0821125, 0.996623, 0.174434, -0.0172812, 1.01384)
+
+[node name="fridge" parent="assets" groups=["interactable"] instance=ExtResource("1_tly58")]
+transform = Transform3D(-0.0357411, -0.0010245, 0.999361, 0.000198722, 1, 0.00103226, -0.999361, 0.000235453, -0.0357409, -3.02329, 2.75671e-07, 6.10197)
+
+[node name="fridge" type="StaticBody3D" parent="assets/fridge"]
+transform = Transform3D(1, 0, -2.98023e-08, 5.21541e-08, 1, 2.32831e-09, 0, 2.32831e-10, 1, 1.38621, -0.113687, -0.183098)
+script = ExtResource("5_1nw6l")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/fridge/fridge"]
+transform = Transform3D(1, 1.04308e-07, -7.45058e-09, 8.19564e-08, 1, -2.32831e-10, -1.49012e-08, 4.42378e-09, 1, -1.68852, 0.479813, 0.117296)
+shape = SubResource("BoxShape3D_ikc7g")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="assets/fridge"]
+
+[node name="Control" parent="assets/fridge/CanvasLayer" instance=ExtResource("7_fb54j")]
+
+[node name="kitchentable_A_large" parent="assets" instance=ExtResource("2_eus1f")]
+transform = Transform3D(0.0132467, 0, -0.999912, 0, 1, 0, 0.999912, 0, 0.0132467, 3.11997, 0, -0.0993536)
+
+[node name="kitchentable" type="StaticBody3D" parent="assets/kitchentable_A_large"]
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/kitchentable_A_large/kitchentable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 2.79397e-08, -3.49246e-09, 1, 2.36988, -0.222809, 0.0324721)
+shape = SubResource("BoxShape3D_1buh7")
+
+[node name="kitchentable_A_large2" parent="assets" instance=ExtResource("2_eus1f")]
+transform = Transform3D(-0.0120076, 0, 0.999928, 0, 1, 0, -0.999928, 0, -0.0120076, 3.16614, -0.0306959, 2.91241)
+
+[node name="kitchentable" type="StaticBody3D" parent="assets/kitchentable_A_large2"]
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/kitchentable_A_large2/kitchentable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 2.79397e-08, -3.49246e-09, 1, 2.36988, -0.222809, 0.0324721)
+shape = SubResource("BoxShape3D_1buh7")
+
+[node name="wall_knife_rack" parent="assets" instance=ExtResource("3_b75l5")]
+transform = Transform3D(0.999996, 0, 0.00279252, 0, 1, 0, -0.00279252, 0, 0.999996, -0.808684, 2.97066, -6.6617)
+
+[node name="wall_shelf_kitchen_corner" parent="assets" instance=ExtResource("4_1okjj")]
+transform = Transform3D(-0.020035, 0, -0.999799, 0, 1, 0, 0.999799, 0, -0.020035, 4.03244, 3.44337, -6.91785)
+
+[node name="kitchencounter_outercorner" parent="assets" instance=ExtResource("5_aukmk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.932291, 0.0501299, -5.87248)
+
+[node name="kitchencounter" type="StaticBody3D" parent="assets/kitchencounter_outercorner"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/kitchencounter_outercorner/kitchencounter"]
+shape = SubResource("BoxShape3D_td86t")
+
+[node name="kitchencounter_straight_B" parent="assets" instance=ExtResource("6_oiy0q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.06176, 0.0500002, -5.86132)
+
+[node name="kitchencounter" type="StaticBody3D" parent="assets/kitchencounter_straight_B"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/kitchencounter_straight_B/kitchencounter"]
+shape = SubResource("BoxShape3D_td86t")
+
+[node name="blinds_kitchen" parent="assets" instance=ExtResource("7_gagjt")]
+transform = Transform3D(-0.000733089, 0, -1, 0, 1, 0, 1, 0, -0.000733089, 4.02634, 3.26184, -3.4294)
+
+[node name="cuttingboard" parent="assets" instance=ExtResource("8_vek7i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.941094, 1.09024, -5.478)
+
+[node name="dishrack_plates" parent="assets" instance=ExtResource("9_umbtv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.39727, 0.969553, -0.873896)
+
+[node name="stove" type="Node3D" parent="assets"]
+
+[node name="stove" parent="assets/stove" instance=ExtResource("10_ryp37")]
+transform = Transform3D(0.00525343, 0, 0.999986, 0, 1, 0, -0.999986, 0, 0.00525343, -3.18767, 0, 1.29803)
+
+[node name="stove2" type="StaticBody3D" parent="assets/stove/stove"]
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/stove/stove/stove2"]
+transform = Transform3D(1, 7.45058e-09, 0, 0, 1, 2.91038e-11, 0, 2.91038e-11, 1, -0.164141, 0.0135238, 0.000862122)
+shape = SubResource("BoxShape3D_snib6")
+
+[node name="stove2" parent="assets/stove" instance=ExtResource("10_ryp37")]
+transform = Transform3D(0.0194243, 0, 0.999811, 0, 1, 0, -0.999811, 0, 0.0194243, -3.18156, 0, 3.30715)
+
+[node name="stove2" type="StaticBody3D" parent="assets/stove/stove2"]
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/stove/stove2/stove2"]
+transform = Transform3D(1, 0, 5.58794e-09, 2.23517e-08, 1, -4.65661e-10, 0, 3.49246e-10, 1, 0.16239, -0.013382, -0.00315499)
+shape = SubResource("BoxShape3D_snib6")
+
+[node name="stove3" parent="assets/stove" instance=ExtResource("10_ryp37")]
+transform = Transform3D(0.00567224, 0, 0.999984, 0, 1, 0, -0.999984, 0, 0.00567224, -3.18232, 0, -0.711507)
+
+[node name="stove2" type="StaticBody3D" parent="assets/stove/stove3"]
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/stove/stove3/stove2"]
+shape = SubResource("BoxShape3D_snib6")
+
+[node name="sauces" type="Node3D" parent="assets"]
+
+[node name="ketchup" parent="assets/sauces" instance=ExtResource("11_y7c2t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.08992, 1.00569, -6.65947)
+
+[node name="mustard" parent="assets/sauces" instance=ExtResource("12_6p5kp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.39818, 1.00516, -6.56247)
+
+[node name="jar_D_large" parent="assets/sauces" instance=ExtResource("13_gstlr")]
+transform = Transform3D(0.996541, -0.0750221, -0.0357454, 0.0786427, 0.990378, 0.113874, 0.0268583, -0.116291, 0.992852, 0.0706131, 0.885412, -6.38166)
+
+[node name="jar_D_large2" parent="assets/sauces" instance=ExtResource("13_gstlr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0375466, 0.895793, -7.04225)
+
+[node name="jar_D_large3" parent="assets/sauces" instance=ExtResource("13_gstlr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.362515, 1.0173, -6.71942)
+
+[node name="shelf_papertowel" parent="assets" instance=ExtResource("14_whinl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.88336, 3.20423, -6.9086)
+
+[node name="wall_shelf_kitchen_hooks" parent="assets" instance=ExtResource("15_4cvc6")]
+transform = Transform3D(1, 0, 0, 0, 0.999456, -0.0329807, 0, 0.0329807, 0.999456, 1.36586, 3.46777, -6.90468)
+
+[node name="utensils_cup" parent="assets" instance=ExtResource("16_twyla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3977, 3.5094, -6.36677)
+
+[node name="utensils_cup2" parent="assets" instance=ExtResource("16_twyla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4114, 3.49766, -6.44209)
+
+[node name="utensils_cup3" parent="assets" instance=ExtResource("16_twyla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.40412, 3.5401, -6.43855)
+
+[node name="kitchencounter_sink" parent="assets" instance=ExtResource("17_gr5d8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.91984, 0.0589421, -5.85549)
+
+[node name="kitchencounter" type="StaticBody3D" parent="assets/kitchencounter_sink"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="assets/kitchencounter_sink/kitchencounter"]
+shape = SubResource("BoxShape3D_td86t")
+
+[node name="dishrack_plates2" parent="assets" instance=ExtResource("9_umbtv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.37074, 0.999694, 0.010416)
+
+[node name="food_ingredient_bun_top" parent="." instance=ExtResource("23_5o4xy")]
